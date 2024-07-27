@@ -19,6 +19,17 @@ body {
   height: 40px;
   stroke: #000;
 }
+.cart-product-image {
+  width: 60px; 
+  height: auto;
+  margin-right: 10px;
+}
+
+.cart-product-details {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .icon-cart:hover {
   cursor: pointer;
