@@ -47,7 +47,7 @@ export const ProductList = ({
               <img src={product.urlImage} alt={product.title} />
             </figure>
             <div className='info-product'>
-              <h2>{product.nameProduct}</h2>
+              <h2>{product.title}</h2>
               <p className='price'>${product.price}</p>
               <button onClick={() => onAddProduct(product)}>
                 Añadir al carrito
@@ -61,7 +61,7 @@ export const ProductList = ({
         <div className='modal'>
           <div className='modal-content'>
             <span className='close' onClick={closeModal}>&times;</span>
-            <h2>{selectedProduct.nameProduct}</h2>
+            <h2>{selectedProduct.title}</h2>
             <img src={selectedProduct.urlImage} alt={selectedProduct.title} />
             <p>{selectedProduct.description}</p>
             <p className='price'>${selectedProduct.price}</p>
