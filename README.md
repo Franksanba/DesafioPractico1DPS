@@ -1,3 +1,8 @@
+Integrantes: Francisco Alfonso Sandoval Barrera, sb200814
+Enlace al proyecto web: https://desafiopractico1.vercel.app
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
